@@ -1,0 +1,47 @@
+-----------------------------------------------------------------
+Problemática:
+La empresa está pediendo dinero por errores en las convesiones de dólares y euros a pesos mexicanos
+Requiere una forma ágil y eficiente de realizar las conversiones
+-----------------------------------------------------------------
+
+-----------------------------------------------------------------
+Algoritmo:
+1. Definir el valor actual del eur y usd con respecto al mex
+2. Solicitar al usuario el tipo de conversión (Euro a Mex o Dólar a Mex)
+3. Solicitar al usaurio el monto a convertir
+4. Realizar la conversión utilizando el tipo de cambio correspondiente
+5. Mostrar el resultado de la conversión al usuario
+-----------------------------------------------------------------
+
+
+-----------------------------------------------------------------
+Pseudocódigo:
+Inicio
+    # Paso1: Definir el valor actual del eur y usd con respecto al mex
+    Definir tipo_cambio_eur_a_mex = 23.70
+    Definir tipo_cambio_usd_a_mex = 29.75
+
+    # Paso2: Solicitar al usuario el tipo de conversión (Euro a Mex o Dólar a Mex)
+    Mostrar mensaje "Ingrese la modena origen para la conversión: "
+
+    # Paso3: Solicitar al usaurio el monto a convertir
+    Mostrar mensaje "Ingrese el monto a convertir: "
+
+    # Paso4: Realizar la conversión utilizando el tipo de cambio correspondiente
+    # Paso5: Mostrar el resultado de la conversión al usuario
+    Si tipo_conversion = eur
+        Calcular resultado = monto_a_convertir * tipo_cambio_eur_a_mex
+        Mostrar resultado "El resutlado de la conversion EUR a MEX es:", resultado
+    sino si tipo_conversion = usd
+        Calcular resultado = monto_a_convertir * tipo_cambio_usd_a_mex
+        Mostrar resultado "El resutlado de la conversion USD a MEX es:", resultado
+    sino 
+        Mostrar resultado "No está disponible este tipo de conversión"
+    Fin si
+Fin programa
+-----------------------------------------------------------------
+
+
+
+
+-----------------------------------------------------------------
